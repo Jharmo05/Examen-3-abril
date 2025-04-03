@@ -1,3 +1,6 @@
+
+from servicios import *
+
 def menu():
     while True:
         print("\n--- Menú de Gestión de Servicios Fotográficos ---")
