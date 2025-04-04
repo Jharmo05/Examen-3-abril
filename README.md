@@ -77,26 +77,6 @@ Se trabajó con múltiples ramas para mantener el desarrollo organizado:
 Se realizaron commits frecuentes y descriptivos en cada rama, por ejemplo:
 
 - `feat: función para agregar nuevos servicios fotográficos`
-- `fix: corrección en la validación de precios`
-- `refactor: simplificación del flujo de edición de servicios`
-
----
-
-## ⚔️ Resolución de Conflictos
-
-Durante el desarrollo, se simuló un conflicto entre las ramas `feature/add-services` y `feature/edit-services`.  
-El conflicto surgió en el archivo `main.py` debido a cambios concurrentes en la función `gestionar_servicios()`.
-
-### ✍️ Proceso de Resolución:
-
-1. Se utilizó el comando `git merge feature/edit-services` desde la rama `feature/add-services`.
-2. Git detectó el conflicto e indicó las secciones afectadas.
-3. Se resolvieron manualmente los conflictos editando el archivo directamente.
-4. Se realizó un commit de resolución:
-   ```bash
-   git add main.py
-   git commit -m "resolve: conflicto entre add-services y edit-services"
-   ```
 
 ---
 
