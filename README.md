@@ -28,7 +28,7 @@
   - Eliminar servicios obsoletos
 
 - **Almacenamiento**:
-  - Toda la información se guarda en un archivo local `servicios.json` para facilitar el acceso y la manipulación de datos.
+  - Toda la información se guarda en un archivo local `servicios_fotograficos.json` para facilitar el acceso y la manipulación de datos.
 
 ---
 
