@@ -53,10 +53,11 @@
 ```
 Examen-3-abril/
 │
-├── servicios.json            # Archivo de almacenamiento local
-├── main.py                   # Código principal del sistema
-├── README.md                 # Documentación del proyecto
-└── ...                       # Otros módulos y scripts si los hay
+├── almacenamiento.py           # Archivo donde se cargan y suben al JSON
+├── servicios.py                # Archivo de almacenamiento local
+├── main.py                     # Código principal del sistema
+├── servicios_fotograficos.json # Archivo JSON donde se guardan los servicios fotograficos
+├── README.md                   # Documentación del proyecto
 ```
 
 ---
